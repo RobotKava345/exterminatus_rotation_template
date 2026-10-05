@@ -1,0 +1,18 @@
+# Секреты и сессии — НИКОГДА не коммитить
+.env
+*.session
+*.session-journal
+
+# База данных
+*.db
+*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
